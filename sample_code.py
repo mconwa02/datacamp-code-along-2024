@@ -29,3 +29,4 @@ result = df.groupby("marital").apply(
 
 if __name__ == "__main__":
     print(result)
+
