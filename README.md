@@ -1,10 +1,25 @@
 # Datacamp Code Along 2024
 Machine Learning in Production with Python
 
-## Banking Dataset - Marketing Targets
+## Summary for Code-Along Session
 
-Banking Dataset of different customers to predict if they will convert or not.
-https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets
+**Background Context:**
+
+In this code-along session, we will work with a dataset from a Portuguese banking institution's direct marketing campaigns, sourced from Kaggle. The dataset contains information about various marketing efforts, including telephonic outreach, aimed at promoting term deposits. Term deposits are significant for banks as they provide a stable income stream. Identifying and targeting potential customers effectively can enhance marketing efficiency and reduce costs.
+
+https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets/data
+
+**Tasks Covered:**
+
+1. **Feature Engineering**:
+   - We will develope functions to enhance the DataFrame with new features.
+   - These functions were combined into a streamlined data transformation process using the Pandas `pipe` method.
+
+2. **Unit Testing**:
+   - We implemented unit tests using the `pytest` framework to ensure the new features were correctly added to the DataFrame.
+   - The tests verified that the new columns were accurately calculated and correctly incorporated into the DataFrame.
+
+Overall, this session provided practical experience in enhancing a dataset with valuable features and ensuring the robustness of these enhancements through thorough testing.
 
 ## Project Setup
 
