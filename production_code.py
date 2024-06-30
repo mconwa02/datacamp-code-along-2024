@@ -40,5 +40,6 @@ def creating_features_banking_data(df):
     )
 
 
-banking_customers_df = creating_features_banking_data(df)
-print(banking_customers_df.head())
+if __name__ == "__main__":
+    banking_customers_df = creating_features_banking_data(df)
+    print(banking_customers_df.head())

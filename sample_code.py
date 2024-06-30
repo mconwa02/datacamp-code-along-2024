@@ -26,5 +26,6 @@ result = df.groupby("marital").apply(
     include_groups=False,
 )
 
-# Print the result
-print(result)
+
+if __name__ == "__main__":
+    print(result)
