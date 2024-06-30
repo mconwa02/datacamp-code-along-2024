@@ -1,6 +1,8 @@
 # Datacamp Code Along 2024
 Machine Learning in Production with Python
 
+![img.png](img.png)
+
 ## Summary for Code-Along Session
 
 **Background Context:**
